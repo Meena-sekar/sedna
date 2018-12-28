@@ -1,0 +1,202 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+	font-size: 60px;  
+	color: #ffffff;
+	text-align: center;
+	font-weight: normal;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+h4 {
+	font-size: 15px;
+	color: #3d4351;
+}
+
+h5 {
+	font-weight: 600;
+}
+a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+	opacity: .7;
+	padding: 10px;	
+}
+a:hover {
+	      opacity: 0.9;
+	      color: grey;
+	      text-decoration: none;
+}
+p {
+	font-size: 15px;
+	color: #607286;
+	line-height: 1.67;
+	margin-top: 20px;
+}
+footer {
+	background-color: #3d4351;
+	color: #ffffff;
+	font-size: 13px;
+	padding: 100px 0px;
+}
+nav {
+	max-width: 1200px;
+	margin:0 auto;
+	width: 100%;
+	padding-bottom: 50px;
+	border-bottom: 1px solid rgba(180,180,180,0.3);
+}
+
+/*button-section*/
+
+.btn {
+	border:1px solid #ff5274;
+	border-radius: 25px;
+	padding: 15px 20px;
+	background-color: transparent;
+	color:  #ff5274;
+	width: 200px;
+	margin:50px 0px;
+	text-align: center;
+	cursor: pointer;
+}
+.btn__signup{
+	border-radius:20px;
+	border:1px solid #ffffff;
+	color: #fff;
+	padding: 10px 20px;
+}
+.btn-filled {
+	background-color: #ff5274;
+	color:  #fff;
+	margin-right: 25px;
+}
+/*hover*/
+.btn__signup:hover{
+	background-color: #ff5274;
+	color: #ffffff;
+	border:1px solid #ff5274;
+}
+.btn:hover {
+	background-color: #ff5274;
+	color:  #fff;
+}
+
+/*button-sectiion ENDS*/
+
+
+.navbar-right {
+	margin-right: 150px;
+
+}
+.hero {
+	background: url(images/bg.png) center;
+	width: 100%;
+	background-size: cover;
+	height:700px;
+}
+.hero p {
+	font-size: 24px;
+	color: #ffffff;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+.screen{
+	padding-top: 150px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+.head {
+	padding-top: 50px;
+}
+.Asserts {
+	padding: 125px 100px 125px 100px;
+}
+.blog {
+     background-color: #f7f8fa;
+
+}
+.product {
+	margin: 100px auto;
+}
+/*media queries*/
+
+@media screen and (max-width: 700px)
+ {
+
+ 	h1 {
+ 		font-size: 25px;
+ 	}
+
+ 	.btn {
+ 		
+ 		padding: 15px 20px;
+ 		width: 200px;
+ 		margin:20px 0px;
+ 	}
+ 	.screen {
+ 		padding-top:80px;
+ 	}
+ 	.blog  img{
+ 		width: 300px;
+ 		height: 200px;
+
+ 	}
+ 	.Asserts {
+ 		padding: 75px 25px 75px 25px;
+ 	}
+ 	.sketch {
+ 		margin-left: 50px;
+ 	}
+ 	footer {
+ 		
+ 		padding: 50px 0px;
+ 	}
+ 	.Asserts img {
+ 		text-align: center;
+ 	}
+
+ 	.hero p {
+ 		font-size: 18px;
+ 		color: #ffffff;
+ 		margin: auto;
+ 		margin-top: 20px;
+ 		text-align: center;
+ 	}
+  	
+ }
+
+ @media screen and (max-width: 1000px) {
+ 	.head ul {
+ 		display: none;
+ 	}
+ }
+ @media screen and (max-width: 1200px) {
+ 	.Asserts h4, .Asserts p {
+ 		text-align: center;
+ 	}
+ 	#margin {
+ 		margin:60px 0px;
+ 	}
+ 	.blog {
+ 		text-align: center;
+ 		padding: 50px 0px;
+ 	}
+ 	#four {
+ 		text-align: center;
+ 	}
+ 	#four p {
+ 		font-size: 12px;
+ 	}
+ }
+
+
